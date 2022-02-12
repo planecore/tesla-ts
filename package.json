@@ -1,6 +1,6 @@
 {
   "name": "ts-tesla",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tesla API library written in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,13 +8,12 @@
   "license": "MIT",
   "repository": "github:planecore/tesla-ts",
   "scripts": {
-    "build": "tslint -p . && tsc --outDir dist --target es5 -d"
+    "build": "tsc --outDir dist --target es5 -d"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/node": "^12.7.12",
     "ts-node": "^8.4.1",
-    "tslint": "^5.20.0",
     "typescript": "^3.6.4"
   },
   "dependencies": {
